@@ -1,8 +1,9 @@
 from setuptools import setup
 
-
 setup(
     name="pre_commit_dummy_package_clean_ipynb",
-    version="0.0.0",
-    install_requires=["clean_ipynb==1.1.1"],
+    version="0.0.1",
+    dependency_links=[
+        "https://git@github.com/Guardiome/clean_ipynb/tarball/master",
+    ],
 )
